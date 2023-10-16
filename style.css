@@ -1,0 +1,39 @@
+#titulo {
+    color: rgb(93, 25, 156);  
+    background-color: rgb(12, 185, 12);
+    width: 215px;
+    height: 40px;
+    border-radius: 10px;
+    border: 3px solid rgb(5, 92, 5);    
+}
+
+a{
+    font-size: 30px; 
+    color: crimson;
+}
+
+ul li {
+    color: brown;
+}
+
+.teste {
+    color: purple;
+}
+
+#div1 {
+    background-color: rgb(12, 185, 12);
+    width: 220px;
+    height: 40px;
+    border-radius: 10px;
+    border: 3px solid rgb(5, 92, 5);
+}
+
+.btn1 {
+    color: rgb(0, 0, 0);  
+    background-color: yellow;
+    width: 150px;
+    height: 40px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 75px;
+    font-size: 16px;
+}
