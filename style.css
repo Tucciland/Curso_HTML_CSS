@@ -12,6 +12,7 @@ body {
 }
 
 .bt1 {
+    border-radius: 13px;
     font-size: 30px;
     display: flex;
     justify-content: center;
@@ -71,4 +72,12 @@ ul li {
     align-items: center;
     margin: 10px 100px ;
     color: #96ec25;
+}
+
+.links {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
