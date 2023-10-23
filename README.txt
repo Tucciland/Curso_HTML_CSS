@@ -1,1 +1,1 @@
-Nesse repositório se encontram alguns testes, atividades do curso e a evolução sobre o assunto de JavaScript.
+Nesse repositório se encontram alguns testes, atividades do curso e a evolução sobre o assunto de HTML e CSS.
