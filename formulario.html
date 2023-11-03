@@ -8,25 +8,38 @@
 </head>
 <body>
     <h1>Titulo da pagina</h1>
-    <div>
-        <h2>Dados</h2>
+    <div style="background-color: yellow; width: 50%;">
+        <h2 style="margin-left: 90px;">Dados</h2>
         <form action="tabelas.html" method="GET">
-            <label for="email">Email:</label>
-            <input type="text" id="email" name="email">
+            <label>Email:
+                <input type="text" name="email">
+            </label>
             <br>
-            <label for="senha">Senha:</label>
-            <input type="password" id="senha" name="senha" style="margin-top: 10px;" >
+            <label for="senha">Senha:
+                <input type="password" name="senha" style="margin-top: 10px;" >
+            </label>
             <br>
-            <label for="data">Data:</label>
-            <input type="date" id="data" style=" margin: 10px; margin-top: 10px;">
+            <label for="data">Data:
+                <input type="date" style=" margin: 10px; margin-top: 10px;">
+            </label>
             <br>
-            <label for="sexo">Sexo:</label>
-            <select name="sexo" id="sexo">
-                <option value="Masc">Masculino</option>
-                <option value="Femi">Feminino</option>
-            </select>
+            <label for="sexo" style="color: blue; display: block;">Agentes:<br>
+                <select name="sexo" size="2" multiple style="width: 50%; height: 100px; margin-left: 60px;">
+                    <option value="Masc">Raze</option>
+                    <option value="Femi" selected >Phenix</option>
+                    <option value="Masc">Reyna</option>
+                    <option value="Femi" selected >Iso</option>
+                    <option value="Masc">Skye</option>
+                    <option value="Femi" selected >Cypher</option>
+                </select>
+            </label>
+            <br>
+            <textarea name="obs" id="obs" style="height: 100px; width: 90%; color: rgb(0, 255, 55);"></textarea>
+            <br>
+            <button>Texto botão</button>
             <br>
             <input type="submit" style="margin: 60px; margin-top: 10px;">
+            </form>
     </div>
 </body>
 </html>
