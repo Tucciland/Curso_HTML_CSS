@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_cadastro.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+    <div class="area-form-cadastro">
+        <h1>Cadastro de pessoas</h1>
+        <form action="">
+            <label for="">
+                <input type="text" class="inp-box" placeholder="Nome" required>
+                <i class='bx bxs-user' ></i>
+            </label>
+            <div class="area-tipo">
+                <label for="" >Tipo do cadastro:<br>
+                    <input type="checkbox" name="tipopessoa[]" value="cli">Cliente <br>
+                    <input type="checkbox" name="tipopessoa[]" value="for">Fornecedor <br>
+                    <input type="checkbox" name="tipopessoa[]" value="more">Mais uma opç
+                </label>
+            </div>
+            <br>
+            <label for="">
+                <input type="text" class="inp-box" placeholder="Telefone">
+                <i class='bx bxs-phone-call'></i>
+            </label>
+            <br>
+            <label for="">
+                <input type="text" class="inp-box" placeholder="CPF ou CNPJ" required>
+                <i class='bx bxs-id-card'></i>
+            </label>
+            <br>
+            <label for="" >
+                <textarea name="" id="" cols="30" rows="10"  placeholder="Observação"></textarea>
+            </label>
+            <br>
+            <button class="bt1">Salvar</button>
+        </form>
+    </div>
+</body>
+</html>

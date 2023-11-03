@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('galaxy.jpg') no-repeat;
+}
+
+.area-form-cadastro {
+    float: left;
+    width: 70%;
+    height: 500px;
+    background-color: transparent;
+    color: white;
+    padding: 30px 40px;
+    border: 2px solid black;
+    border-radius: 25px;
+    backdrop-filter: blur(20px);
+}
+
+.area-tipo {
+    float: right;
+    width: 170px;
+    border: 1px solid black;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.area-form-cadastro .inp-box {
+    background-color: transparent;
+    margin: 10px 0px;
+    width: 50%;
+    height: 50px;
+    outline: none;
+    border: 2px solid rgba(red, green, blue, alpha);
+    border-radius: 25px;
+    padding: 20px ;
+    
+}
+.area-form-cadastro h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.area-form-cadastro textarea {
+    background-color: transparent;
+    width: 50%;
+    height: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid rgba(red, green, blue, alpha);
+    outline: none;
+}
+
+.area-form-cadastro input , ::placeholder{
+    color: white;
+}
+
+.inp-box i {
+    position: absolute;
+    right: 20px;
+}
+
+.bt1 {
+    width: 50%;
+    height: 40px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+    font-size: 22px;
+    color: #333;
+    font-weight: 600;
+    padding: 10px 50px;
+    margin: 20px;
+    margin-left: 20%;
+}
